@@ -18,7 +18,7 @@ chmod 312 ./tentacruel6/lilligant
 chmod u=rw,g=w,o=w ./tentacruel6/aggron
 
 chmod 571 ./trecho5
-chmod 307 ./tentacruel6/dusclops
-chmod 551 ./tentacruel6/kirlia
-chmod 045 ./tentacruel6/drapion
-chmod u=,g=rw,o=w ./tentacruel6/yanma
+chmod 307 ./trecho5/dusclops
+chmod 551 ./trecho5/kirlia
+chmod 045 ./trecho5/drapion
+chmod u=,g=rw,o=w ./trecho5/yanma
