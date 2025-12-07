@@ -8,12 +8,12 @@ chmod 750 ./bronzong4/reuiclus
 chmod a=rwx ./bronzong4/lileep
 chmod u=,g=r,o=r ./bronzong4/sunflora
 
-chmod 045 ./klang6
+chmod 046 ./klang6
 chmod 600 ./snover7
-chmod 050 ./staravia0
+chmod 060 ./staravia0
 
 chmod 711 ./tentacruel6
-chmod 050 ./tentacruel6/bedew
+chmod 060 ./tentacruel6/bedew
 chmod 312 ./tentacruel6/lilligant
 chmod u=rw,g=w,o=w ./tentacruel6/aggron
 
