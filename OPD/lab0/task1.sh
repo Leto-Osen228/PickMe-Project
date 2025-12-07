@@ -17,10 +17,10 @@ mkdir ./tentacruel6
 	mkdir ./tentacruel6/lilligant
 	touch ./tentacruel6/aggron
 mkdir ./trecho5
-	mkdir ./tentacruel6/dusclops
-	mkdir ./tentacruel6/kirlia
-	touch ./tentacruel6/drapion
-	touch ./tentacruel6/yanma
+	mkdir ./trecho5/dusclops
+	mkdir ./trecho5/kirlia
+	touch ./trecho5/drapion
+	touch ./trecho5/yanma
 
 echo "Способности Overgrow Gluttony Inner Focus" > ./bronzong4/simisage
 
@@ -54,8 +54,8 @@ Headbutt Metal Claw Iron Defense Roar Take Down Iron Head Protect \n\
 Metal Sound Iron Tail Autotomize Heavy Slam Double-Edge Metal \n\
 Burst" > ./tentacruel6/aggron
 
-echo "Тип диеты Carnivore" > ./tentacruel6/drapion
+echo "Тип диеты Carnivore" > ./trecho5/drapion
 
 echo -e "Развитые способности \n\
-Frisk" > ./tentacruel6/yanma
+Frisk" > ./trecho5/yanma
 
