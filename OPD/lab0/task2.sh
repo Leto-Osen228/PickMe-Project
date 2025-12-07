@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 chmod 513 ./bronzong4
-chmod a=ro=0 ./bronzong4/simisage
+chmod a=r,g=r,o= ./bronzong4/simisage
 chmod 440 ./bronzong4/hydreigon
 chmod 666 ./bronzong4/oshawott
 chmod 750 ./bronzong4/reuiclus
