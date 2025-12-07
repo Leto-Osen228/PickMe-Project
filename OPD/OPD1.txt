@@ -1,0 +1,83 @@
+mkdir ./bronzong4/
+	touch ./bronzong4/simisage
+	touch ./bronzong4/hydreigon
+	touch ./bronzong4/oshawott
+	mkdir ./bronzong4/reuiclus
+	mkdir ./bronzong4/lileep
+	touch ./bronzong4/sunflora
+touch ./klang6
+touch ./snover7
+touch ./staravia0
+mkdir ./tentacruel6
+	touch ./tentacruel6/bedew
+	mkdir ./tentacruel6/lilligant
+	touch ./tentacruel6/aggron
+mkdir ./trecho5
+	mkdir ./tentacruel6/dusclops
+	mkdir ./tentacruel6/kirlia
+	touch ./tentacruel6/drapion
+	touch ./tentacruel6/yanma
+
+echo "Способности Overgrow Gluttony Inner Focus" > ./bronzong4/simisage
+
+echo -e "Ходы\n\
+Aqua Tail Dark Pulse Draco Meteor Dragon Pulse Earth Power Heat Wave\n\
+Hyper Voice Iron Tail Outrage Roost Signal Beam Sleep Talk Snore\n\
+Superpower Tailwind Tri Attack Uproar Zen Headbutt" > ./bronzong4/hydreigon
+
+echo -e "Тип \n\
+покемона WATER NONE" > ./bronzong4/oshawott
+
+echo -e "Способности Ingrain Grasswhistle Mega \n\
+Drain Leech Seed Razor Leaf Worry Seed Giga Drain Bullet Seed Petal \n\
+Dance Natural Gift Solarbeam Double-Edge Sunny Day Leaf\n\
+Storm" > ./bronzong4/sunflora
+
+echo -e "Способности Charge Thundershock Gear Grind Bind Charge \n\
+Beam Autotomize Mirror Shot Screech Discharge Metal Sound Shift Gear \n\
+Lock-On Zap Cannon Hyper Beam" > ./klang6
+
+echo -e "weigth=111.3 height=39.0 atk=6 \n\
+def=5" > ./snover7
+
+echo -e "Способности Last Chance Mach Speed Intimidate Keen\n\
+Eye" > ./staravia0
+
+echo "Тип диеты Phototroph" > ./tentacruel6/bedew
+
+echo -e "Способности Mud-Slap \n\
+Headbutt Metal Claw Iron Defense Roar Take Down Iron Head Protect \n\
+Metal Sound Iron Tail Autotomize Heavy Slam Double-Edge Metal \n\
+Burst" > ./tentacruel6/aggron
+
+echo "Тип диеты Carnivore" > ./tentacruel6/drapion
+
+echo -e "Развитые способности \n\
+Frisk" > ./tentacruel6/yanma
+
+chmod 513 ./bronzong4
+chmod a=ro=0 ./bronzong4/simisage
+chmod 440 ./bronzong4/hydreigon
+chmod 666 ./bronzong4/oshawott
+chmod 750 ./bronzong4/reuiclus
+chmod a=rwx ./bronzong4/lileep
+chmod u=,g=r,o=r ./bronzong4/sunflora
+
+chmod 045 ./klang6
+chmod 600 ./snover7
+chmod 050 ./staravia0
+
+chmod 711 ./tentacruel6
+chmod 050 ./tentacruel6/bedew
+chmod 312 ./tentacruel6/lilligant
+chmod u=rw,g=w,o=w ./tentacruel6/aggron
+
+chmod 571 ./trecho5
+chmod 307 ./tentacruel6/dusclops
+chmod 551 ./tentacruel6/kirlia
+chmod 045 ./tentacruel6/drapion
+chmod u=,g=rw,o=w ./tentacruel6/yanma
+
+
+
+
