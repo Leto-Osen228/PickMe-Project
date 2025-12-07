@@ -58,3 +58,4 @@ echo "Тип диеты Carnivore" > ./tentacruel6/drapion
 
 echo -e "Развитые способности \n\
 Frisk" > ./tentacruel6/yanma
+
