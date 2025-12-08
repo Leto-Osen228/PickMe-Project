@@ -20,3 +20,11 @@ cat ./bronzong4/oshawott ./tentacruel6/bedew > ./snover7_91
 
 # скопировать файл snover7 в директорию lab0/bronzong4/lileep
 cp ./snover7 ./bronzong4/lileep/
+
+# Получим набор ошибок
+    # ln: ./trecho5/yanmaklang: Permission denied
+    # ln: ./bronzong4/oshawottstaravia: Permission denied
+    # cp: ./tentacruel6/lilligant: Permission denied
+    # cp: ./tentacruel6/bedew: Permission denied
+    # cp: ./trecho5/drapionsnover: Permission denied
+    # cat: ./tentacruel6/bedew: Permission denied`
